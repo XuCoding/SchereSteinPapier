@@ -5,7 +5,14 @@
     {
         static void Main()
         {
-            
+            // Programmieren Sie ein Schere, Stein, Papier Spiel.
+            //Der User soll eines der Handzeichen wählen können.
+            //Der Computer wählt per Zufall ein eigenes Zeichen. (recherchieren Sie hierzu Random für C#)
+            //Dem User wird dann ausgegeben, welches Zeichen der Computer gewählt hat und ob man gewonnen, verloren oder ein Unentschieden hat.
+            //Danach kann sich der User entscheiden eine weitere Runde zu spielen, oder nicht
+
+            //Meine Lösung:
+
             bool weiterspielen = true;
             Random random = new Random(); // Zufallsgenerator Computer
 
